@@ -40,8 +40,8 @@ body{
     var today = new Date();
     var hrs = today.getHours();
     var dayOfWeek = weekday[today.getDay()];
-    const getMonth = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
-    var date = dayOfWeek+" " + today.getDate() + "/" +(today.getMonth()+1) +'/'+today.getFullYear()  ;
+    var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    var date = dayOfWeek+" " + today.getDate() + "/" +(today.getMonth(months)+1) +'/'+today.getFullYear()  ;
 
     var greet;
 
